@@ -18,7 +18,7 @@ public class MySQLJDBCDatabaseManager implements DatabaseManager {
         this.user = user;
         this.password = password;
 
-        this.connectionProvider = new MySQLJDCConnetionProvider();
+        this.connectionProvider = new MySQLJDBConnetionProvider();
     }
 
 

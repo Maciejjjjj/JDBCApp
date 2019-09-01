@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class MySQLJDCConnetionProvider implements ConnectionProvider {
+public class MySQLJDBConnetionProvider implements ConnectionProvider {
 
 
     @Override
