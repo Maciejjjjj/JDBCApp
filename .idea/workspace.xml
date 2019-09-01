@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16312802-7899-497c-a118-afeec732c14d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sda/jdbc/JDBCParametrizedUpdateApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sda/jdbc/JDBCSelectApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sda/jdbc/JDBCUpdateApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sda/jdbc/JDBCDeleteApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sda/jdbc/JDBCInsertApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sda/jdbc/dbcore/ConnectionProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sda/jdbc/dbcore/DatabaseManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sda/jdbc/dbcore/MySQLJDBCDatabaseManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sda/jdbc/dbcore/MySQLJDCConnetionProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/jdbc/JDBCApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/jdbc/JDBCSelectApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/jdbc/JDBCSelectApp.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,11 +20,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
+            <state relative-caret-position="462">
               <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
             </state>
           </provider>
@@ -31,26 +33,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/jdbc/JDBCSelectApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+            <state relative-caret-position="441">
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/jdbc/JDBCUpdateApp.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/jdbc/dbcore/MySQLJDBCDatabaseManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="29" column="5" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="29" selection-end-column="5" />
+            <state relative-caret-position="283">
+              <caret line="51" column="56" selection-start-line="51" selection-start-column="56" selection-end-line="51" selection-end-column="56" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/jdbc/JDBCParametrizedUpdateApp.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/jdbc/JDBCDeleteApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+            <state relative-caret-position="189">
+              <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -60,6 +62,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -73,9 +76,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sda/jdbc/JDBCAPP.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/sda/jdbc/JDBCApp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sda/jdbc/JDBCSelectApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sda/jdbc/JDBCUpdateApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sda/jdbc/JDBCParametrizedUpdateApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sda/jdbc/JDBCInsertApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sda/jdbc/dbcore/JDCConnetionProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sda/jdbc/dbcore/ConnectionProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sda/jdbc/dbcore/MySQLJDCConnetionProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sda/jdbc/dbcore/DatabaseManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sda/jdbc/JDBCSelectApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sda/jdbc/JDBCDeleteApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sda/jdbc/dbcore/MySQLJDBCDatabaseManager.java" />
       </list>
     </option>
   </component>
@@ -86,20 +96,22 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-185" />
     <option name="y" value="13" />
     <option name="width" value="1342" />
     <option name="height" value="1050" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -140,7 +152,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567259552599" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567331843367" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunDashboard">
@@ -155,7 +167,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JDBCParametrizedUpdateApp">
+  <component name="RunManager" selected="Application.JDBCDeleteApp">
+    <configuration name="JDBCDeleteApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.jdbc.JDBCDeleteApp" />
+      <module name="JDBCApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sda.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JDBCInsertApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.jdbc.JDBCInsertApp" />
+      <module name="JDBCApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sda.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JDBCParametrizedUpdateApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.jdbc.JDBCParametrizedUpdateApp" />
       <module name="JDBCApp" />
@@ -197,9 +235,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JDBCDeleteApp" />
+        <item itemvalue="Application.JDBCSelectApp" />
+        <item itemvalue="Application.JDBCInsertApp" />
         <item itemvalue="Application.JDBCParametrizedUpdateApp" />
         <item itemvalue="Application.JDBCUpdateApp" />
-        <item itemvalue="Application.JDBCSelectApp" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +257,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -226,7 +266,7 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Learn" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.25349087" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.25725028" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32982457" />
@@ -252,29 +292,78 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
+        <state relative-caret-position="462">
           <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/jdbc/JDBCSelectApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/jdbc/JDBCUpdateApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="29" selection-end-column="5" />
+        <state relative-caret-position="126">
+          <caret line="6" selection-start-line="6" selection-end-line="29" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/sql/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/jdbc/JDBCParametrizedUpdateApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        <state relative-caret-position="336">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/jdbc/dbcore/DatabaseManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/jdbc/dbcore/ConnectionProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/jdbc/dbcore/MySQLJDCConnetionProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/jdbc/JDBCSelectApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/jdbc/JDBCInsertApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/jdbc/dbcore/MySQLJDBCDatabaseManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="51" column="56" selection-start-line="51" selection-start-column="56" selection-end-line="51" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/jdbc/JDBCDeleteApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
         </state>
       </provider>
     </entry>
